@@ -59,7 +59,7 @@ public class frmModelLogin extends javax.swing.JFrame {
         btnlogin = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("LOGIN");
         setAlwaysOnTop(true);
 
@@ -153,7 +153,7 @@ public class frmModelLogin extends javax.swing.JFrame {
                  
                 
                 frmModelMainForm formAnaSayfa = new frmModelMainForm();
-                formAnaSayfa.setVisible(rootPaneCheckingEnabled);
+                formAnaSayfa.setVisible(true);
                 this.setDefaultCloseOperation(3);
                 this.setVisible(false);
             }
@@ -168,8 +168,8 @@ public class frmModelLogin extends javax.swing.JFrame {
                 }
             }
         
-        mainform.setVisible(true);
-        dispose();
+      //  mainform.setVisible(true);
+       // this.setVisible(false);
     }//GEN-LAST:event_btnloginActionPerformed
 
     private void txtusernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtusernameActionPerformed
